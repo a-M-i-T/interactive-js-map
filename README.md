@@ -2,8 +2,7 @@
 Interactive JS Map for website
 
 # USAGE
-
-# Create an Object Instance
+Create an Object Instance
 var map = new IntMap();
 
 # Default Options
