@@ -2,8 +2,8 @@
 Interactive JS Map for website
 
 # USAGE
-# Create an Object Instance
 
+# Create an Object Instance
 var map = new IntMap();
 
 # Default Options
@@ -44,41 +44,41 @@ var map = new IntMap();
 
 
 # You can Override Options
- var map = new IntMap({
-            'header_text' : 'Your Header',
-            'company_logo' : 'your_logo_path/your_logo.png', 
-            'company_logo_alt' : 'Your Company Around the World.',
-            'company_name' : 'Your Company',
-            'append_to' : 'body',
-            'style' : '',
-            'continent' : {
-               'europe' : {
-                  'title' : 'Western Europe',
-                  'description' : 'Test',
-               },
-               'africa' : {
-                  'title' : 'Africa and Middle East',
-                  'description' : 'Test2',
-               },
-               'asia': {
-                  'title' : 'Asia and Oceania',
-                  'description' : 'Test3',
-               },
-               'east-europe': {
-                  'title' : 'Eastern Europe',
-                  'description' : 'Test4',
-               },
-               'south-america': {
-                  'title' : 'Central &amp; South America',
-                  'description' : 'Test5',
-               },
-               'north-america': {
-                  'title' : 'North America',
-                  'description' : 'Test6',
-               }
-            }
-         });
-         
+	 var map = new IntMap({
+		    'header_text' : 'Your Header',
+		    'company_logo' : 'your_logo_path/your_logo.png', 
+		    'company_logo_alt' : 'Your Company Around the World.',
+		    'company_name' : 'Your Company',
+		    'append_to' : 'body',
+		    'style' : '',
+		    'continent' : {
+		       'europe' : {
+			  'title' : 'Western Europe',
+			  'description' : 'Test',
+		       },
+		       'africa' : {
+			  'title' : 'Africa and Middle East',
+			  'description' : 'Test2',
+		       },
+		       'asia': {
+			  'title' : 'Asia and Oceania',
+			  'description' : 'Test3',
+		       },
+		       'east-europe': {
+			  'title' : 'Eastern Europe',
+			  'description' : 'Test4',
+		       },
+		       'south-america': {
+			  'title' : 'Central &amp; South America',
+			  'description' : 'Test5',
+		       },
+		       'north-america': {
+			  'title' : 'North America',
+			  'description' : 'Test6',
+		       }
+		    }
+		 })
+
         # Styling
             # You can directly add styles as string or as an object key value pair
             
