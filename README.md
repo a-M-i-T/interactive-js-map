@@ -88,15 +88,16 @@ var map = new IntMap();
             # As an object key value pair
             'style' : {
                'header': {
-               'background' : '#555',
-               'htag' : '#000',
+               'background' : '#000',
+               'htag' : '#fff',
                'font-family' : 'san-serif',
                },
                'map': {
                'background' : '#222',
-               'htag' : '#fff',
-               'ptag' : '#fff',
-               'font-family' : 'san-serif',
+               'htag' : 'blue',
+               'ptag' : 'red',
+               'font_h2' : 'san-serif',
+               'font_p' : 'san-serif',
                }
             },
 
