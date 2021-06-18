@@ -1,16 +1,33 @@
-# arya-interactive-js-map
-Interactive JS Map for website
+
+# Interactive JS Map
+Showcase your business around the world with interactive js map
+
+![jsmap](https://user-images.githubusercontent.com/84500963/122356844-e92a0a80-cf72-11eb-8ffd-914081d13bde.gif)
+
+You can contact <a href="https://www.aryaitandmedia.com/?get-quote-map" target="_blank">here</a> to make a purchase
+
+<a href="https://www.aryaitandmedia.com/demo/map" target="_blank">DEMO</a>
+
+	user : demo
+	pass : demo@map
+
+
+https://www.fiverr.com/futurist_amit/place-an-interactive-js-map-into-any-website
 
 # USAGE
 Create an Object Instance
-var map = new IntMap();
+
+	<script src="jquery-1.8.2.min.js"></script>
+	<script type="text/javascript">
+		var map = new IntMap();
+	</script>
 
 # Default Options
     {
 		'header_text' : 'AIT&M - Interactive JS Map',
+    	'company_name' : 'Your Company',
 		'company_logo' : 'images/your_company_logo.png', 
 		'company_logo_alt' : 'Your Company Around the World.',
-		'company_name' : 'Your Company',
 		'append_to' : 'body',
 		'style' : '',
 		'continent' : {
@@ -42,12 +59,12 @@ var map = new IntMap();
 	}
 
 
-# You can Override Options
+# Override Options
 	 var map = new IntMap({
 		    'header_text' : 'Your Header',
+		     'company_name' : 'Your Company',
 		    'company_logo' : 'your_logo_path/your_logo.png', 
 		    'company_logo_alt' : 'Your Company Around the World.',
-		    'company_name' : 'Your Company',
 		    'append_to' : 'body',
 		    'style' : '',
 		    'continent' : {
@@ -78,7 +95,7 @@ var map = new IntMap();
 		    }
 		 })
 
-        # Styling
+ # Override Options : 'style'
             # You can directly add styles as string or as an object key value pair
             
             # As a string
@@ -99,5 +116,6 @@ var map = new IntMap();
                'font_p' : 'san-serif',
                }
             },
+	    
 
         
